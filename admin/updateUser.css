@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgba(0, 22, 89, 0.808);
+    display: flex;
+    flex-direction: column;
+   
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* HEADER */
+header{
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+  }
+.inner {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} 
+.inner .logo{
+  margin-left: 1rem;
+  padding-left: 3rem;
+}
+.inner .logo img {
+  width: 170px;
+}
+.inner .main-navigation {   
+  margin-left: 1rem;
+  padding-right: 5rem;
+}
+
+.inner ul{
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex-direction: row;
+}
+.inner ul li {
+  margin-right: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.inner ul li a {
+  padding: 1rem 0;
+  text-decoration: none;
+  color: black;
+  margin-left: 0.3rem;
+  transition: 0.8s ease;
+  cursor: pointer;
+}
+.inner ul li a:hover{
+    color:red;
+}
+.inner ul li a span{
+  color: red;
+}
+
+.inner .section.user-specific {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; 
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: red;
+  transition: 0.8s ease;
+  
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+/* END HEADER */
+
+
+/* Urediti Auto */
+
+
+
+
+#urediKorisnika{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.urediKorisnika{
+margin-top: 5rem;
+padding: 1rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 50%;
+border-radius: 20px;
+background-color: rgb(255, 255, 255);
+  
+}
+.urediKorisnika p{
+
+font-size: 20px;
+margin: 0.4rem;
+}
+.urediKorisnika input{
+ width: 80%;
+ text-align: center;
+ background-color: rgba(0, 22, 89, 0.808);
+ color: rgb(209, 205, 205);
+ font-size: 25px;
+ 
+
+}
+.posalji{
+margin-top: 3rem;
+
+
+}

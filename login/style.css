@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 22, 89, 0.808),rgba(0, 22, 89, 0.76)), url(../img/slide-1-min.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* LOGIN */
+
+#login{
+    width: 100%;
+    height: 754px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#login .Login{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+#login .logTittle{
+    width: 60%;
+    text-align: center;
+    font-size: 25px;
+}
+#login .logTittle h2{
+    border-bottom: 1px red groove;
+}
+
+/* INPUT */
+
+#login .logForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#login .logForm input{
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: 20px;
+    border: none;
+}
+.logForm p a{
+    text-decoration: none;
+}
+/* END INPUT */
+
+/*REGISTRACIJA*/
+#login .register{
+    width: 100%;
+    text-align: center;
+}
+#login .register a{
+    text-decoration: none;
+    color: black;
+}
+
+/* END LOGIN */

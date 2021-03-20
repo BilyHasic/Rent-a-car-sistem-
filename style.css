@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.082);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+
+
+/* HEADER */
+header{
+    top: 0;
+    
+      width: 100%;
+    background-color: white;
+    z-index: 1;
+  }
+.inner {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} 
+.inner .logo{
+  margin-left: 1rem;
+  padding-left: 3rem;
+}
+.inner .logo img {
+  width: 170px;
+}
+.inner .main-navigation {   
+  margin-left: 1rem;
+  padding-right: 5rem;
+}
+
+.inner ul{
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex-direction: row;
+}
+.inner ul li {
+  margin-right: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.inner ul li a {
+  padding: 1rem 0;
+  text-decoration: none;
+  color: black;
+  margin-left: 0.3rem;
+  transition: 0.8s ease;
+  cursor: pointer;
+}
+.inner ul li a:hover{
+    color:red;
+}
+.inner ul li a span{
+  color: red;
+}
+
+.inner .section.user-specific {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; 
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: red;
+  transition: 0.8s ease;
+  
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+/* END HEADER */
+
+
+/* MAIN PAGE */
+
+#mainPage{
+  background-image: linear-gradient(rgba(101, 104, 255, 0.274),rgba(255, 255, 255, 0.158)), url(img/homePage_BG_image.jpg);
+  width: 100%;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  height: 668px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#mainPage .main_Box{
+  width: 60%;
+  background-color:rgba(0, 0, 0, 0.726);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#mainPage .main_Text{
+  width: 100%;
+  font-size: 25px;
+  color: white;
+  border-bottom: 2px blue groove;
+}
+
+#mainPage .second_text{
+  width: 50%;
+  font-size: 15px;
+  color: gray;
+}
+
+#mainPage .main_button{
+  width: 50%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+#mainPage .main_button button{
+  border: none;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  font-size: 55px;
+  
+}
+#mainPage .main_button button:hover{
+  background-color: white;
+  color: black;
+  transition: .8s ease-in-out;
+}
+#mainPage .main_button button a{
+  text-decoration: none;
+  color: white;
+}
+#mainPage .main_button button a:hover{
+  color: black;
+}
+
+button{
+  border-collapse: collapse;
+  width: 100%;
+  font-family: monospace;
+  font-size: 25px;
+  text-align: left;
+}
+
+/* FOOTER */
+.footer {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 22, 89, 0.808),rgba(0, 22, 89, 0.76)), url(../img/BG_hero4.jpg);
+  color: white;
+  text-align: center;
+  
+}
+/* END FOOTER */ 
+
+
+
+
